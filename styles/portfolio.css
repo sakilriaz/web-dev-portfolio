@@ -167,3 +167,21 @@ border:none;}
  .cv{height: 44px;
     width: 160px;
     }
+    /*Footer styles*/
+   footer{     
+      
+      display: flex;
+      justify-content:center;
+      gap: 100px;      
+    }
+    .footer-column{
+          }
+   footer input[type=text], footer input[type=email], textarea{
+      height:64px;
+      border-radius: 5px;
+      display: flex;
+      width: 100%;
+      padding: 10px 20px;
+      margin-bottom: 24px;
+      border: none;
+   }
