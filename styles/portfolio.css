@@ -23,6 +23,15 @@
 padding: 5px 10px;
 border-radius: 5px;
 border:none;}
+/*header*/
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat:no-repeat;
+    background-position:  top left,bottom right;
+    background-size: 4%,30%;
+    
+} 
+
 
  /*Nav styles*/
  nav{
@@ -52,6 +61,11 @@ border:none;}
  }
 
  /*banner styles*/
+ .banner{
+    display:flex;
+    justify-content: space-between;
+    margin:0 30px 0 200px;
+ }
  .banner-greetings{
     font-size: 20px;
     font-weight: 600;
@@ -63,4 +77,12 @@ border:none;}
  .banner-description{
     font-size: 10px;
     font-weight: 400;
+ }
+ .banner-profile-pic{
+    width:284px;
+    height: 376px;
+ }
+ .banner-content{
+    width:385px;
+    max-height:156px;
  }
